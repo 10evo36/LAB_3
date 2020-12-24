@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-for i in range(100, 999):
-   a = i//100
-   b = i % 10
-   c = i % 100
-   d = c//10
-   s = a+b+d
-   if s % 7 == 0 and i % 7 == 0:
-    n =+ i
-print(n,"Всего чисел")
+a = int(input("Введите a "))
+b = int(input("Введите b "))
+if a>20 and b > 20 and a<100 and b < 100 and a%3==0 and b %3 == 0:
+   S=a+b
+   print("Сумма чисел равна" ,S )
+else:
+   print("Числа не подходят по условию!")
