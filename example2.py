@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 import sys
+
 if __name__ == '__main__':
     n = int(input("Введите номер месяца: "))
+    
     if n == 1 or n == 2 or n == 12:
         print("Зима")
     elif n == 3 or n == 4 or n == 5:
@@ -14,3 +17,4 @@ if __name__ == '__main__':
     else:
         print("Ошибка!", file=sys.stderr)
         exit(1)
+        
